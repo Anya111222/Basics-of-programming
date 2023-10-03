@@ -1,4 +1,3 @@
-#4 ЗАН 3
 # — coding: utf-8 — 
 def main(): 
  a=int(input()) 
