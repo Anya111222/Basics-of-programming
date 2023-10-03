@@ -1,7 +1,7 @@
 # — coding: utf-8 — 
 def main(X,Y,Z): 
  numbers=[X,Y,Z] 
- return min(numbers) 
+    return min(numbers) 
  
 X=int(input()) 
 Y=int(input()) 
