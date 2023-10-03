@@ -1,6 +1,9 @@
-# -- coding: utf-8 --
-y = int(input())
-if y%4==0 and y%100!=0 and y%400==0:
-    print('Нет')
-else:
-    print('Да')
+# — coding: utf-8 — 
+def main(): 
+ N = int(input()) 
+ if (N%4==0 and N%100!=0) or N%300==0: 
+ return 'Да' 
+ else: 
+ return 'Нет' 
+ 
+print(main())
