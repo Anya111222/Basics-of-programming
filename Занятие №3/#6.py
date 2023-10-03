@@ -2,18 +2,18 @@
 def nums(): 
  i=int(input()) 
  if i >= 1 and i <= 8: 
- return i 
+     return i 
  else: 
- print('Неправильное число') 
- return nums() 
+     print('Неправильное число') 
+     return nums() 
 def main(): 
  X=nums() 
  Y=nums() 
  Z=nums() 
  W=nums() 
  if (X+Y+Z+W)%2==0: 
- return 'Да' 
+     return 'Да' 
  else: 
- return 'Нет' 
+     return 'Нет' 
  
 print(main())
