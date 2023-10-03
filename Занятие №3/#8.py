@@ -4,9 +4,9 @@ def main():
  Y=int(input()) 
  Z=int(input()) 
  if X==Y==Z: 
- return 3 
+      return 3 
  elif X==Y or Y==Z or X==Z: 
- return 2 
+      return 2 
  else: 
- return 0 
+      return 0 
 print(main())
