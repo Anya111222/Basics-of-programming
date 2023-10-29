@@ -1,11 +1,12 @@
-# -- coding: utf-8 --
-a = int(input())
-b = int(input())
-c = int(input())
-v = 0
-if a==b and a==c and b==a and b==c and c==a and c==b:
-            print(3)
-elif a!=b and a!=c and b!=a and b!=c and c!=a and c!=b:
-    print(0)
-else:
-    print(2)
+# — coding: utf-8 — 
+def main(): 
+ X=int(input()) 
+ Y=int(input()) 
+ Z=int(input()) 
+ if X==Y==Z: 
+      return 3 
+ elif X==Y or Y==Z or X==Z: 
+      return 2 
+ else: 
+      return 0 
+print(main())

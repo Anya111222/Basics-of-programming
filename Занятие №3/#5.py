@@ -1,10 +1,9 @@
-# -- coding: utf-8 --
-a = int(input())
-b = int(input())
-c = int(input())
-if a<b and a<c:
-    print(a)
-elif b<a and b<c:
-    print(b)
-else:
-    print(c)
+# — coding: utf-8 — 
+def main(X,Y,Z): 
+ numbers=[X,Y,Z] 
+    return min(numbers) 
+ 
+X=int(input()) 
+Y=int(input()) 
+Z=int(input()) 
+print('Минимальное число: ', main(X,Y,Z))
