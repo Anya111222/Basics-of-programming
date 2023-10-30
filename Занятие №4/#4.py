@@ -1,6 +1,9 @@
 # -- coding: utf-8 --
-N=int(input())
-sum=0
-for i in range(N):
-    sum+=int(input())
-print(sum)
+def main():
+    s = 0
+    n = int(input())
+    for i in range(n):
+        a = int(input(f'Введите число №{i+1}: '))
+        s += a
+    return s
+print(main())
