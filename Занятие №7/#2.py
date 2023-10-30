@@ -1,4 +1,5 @@
 # -- coding: utf-8 --
+
 def srzer():
     sum = 0
     A = [int(a) for a in input().split()]
@@ -10,4 +11,5 @@ def srzer():
     w = el_cou
     sum /=w
     return print(sum)
+    
 srzer()
