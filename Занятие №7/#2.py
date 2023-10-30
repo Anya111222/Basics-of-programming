@@ -1,6 +1,5 @@
 # -- coding: utf-8 --
 def srzer():
-    srz = 0
     sum = 0
     A = [int(a) for a in input().split()]
     for a in A:
