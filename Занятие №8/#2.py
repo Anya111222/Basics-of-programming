@@ -1,4 +1,5 @@
-
+# -- coding: utf-8 --
+#3-var
 def main(stroke):
       words = stroke.split()
       lst = []
