@@ -1,4 +1,5 @@
 # — coding: utf-8 — 
+
 def nums(): 
  i=int(input()) 
  if i >= 1 and i <= 8: 
