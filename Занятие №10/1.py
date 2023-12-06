@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 #1
 def openfile():
     with open('import.txt','r') as file:
