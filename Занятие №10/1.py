@@ -1,7 +1,7 @@
 # -- coding: utf-8 --
 #1
 def openfile():
-    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vvod_t2.txt','r') as file:
+    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vvod_t1.txt','r') as file:
         A = []
         matrix = file.readlines()
         for i in matrix:
@@ -25,7 +25,7 @@ def mas(A):
         return f'Наибольшее: {n}, Наименьшее: {m}'
 
 def save(data):
-    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vivod_t2.txt','w') as file:
+    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vivod_t1.txt','w') as file:
         file.write(data)
         file.close()
 
