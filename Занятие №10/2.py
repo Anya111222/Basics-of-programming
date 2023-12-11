@@ -1,7 +1,7 @@
 # -- coding: utf-8 --
 #2
 def openfile():
-    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vvod_t1.txt','r') as file:
+    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vvod_t2.txt','r') as file:
         A = []
         matrix = file.readlines()
         for i in matrix:
@@ -39,7 +39,7 @@ def mass(A):
     save(M)
 
 def save(A):
-    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vivod_t1.txt','w') as file:
+    with open('Занятие_10Бушмакина_Анна_Станиславовна_У-232_vivod_t2.txt','w') as file:
         for i in A:
             out = ' '.join(map(str,i))
             file.write(out+'\n')
